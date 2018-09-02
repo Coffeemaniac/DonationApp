@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_item">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blah"
+            android:textSize="25sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type"
+            android:text="blah"
+            android:textSize="25sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/boxNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc"
+            android:text="blah"
+            android:textSize="25sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/note_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/boxNumber"
+            android:text="blah"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/reserve"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/note_ID"
+            android:text="Reserve" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

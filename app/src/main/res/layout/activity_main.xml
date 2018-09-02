@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.donationapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Registeration"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/NameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/emailID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="xyz@gmail.com"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="+91(Your Phone number)"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <CheckBox
+        android:id="@+id/donate_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:text="Donate Item?"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <CheckBox
+        android:id="@+id/charity_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:text="Register your charity?"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:onClick="itemClicked_charity"/>
+
+
+    <Button
+        android:id = "@+id/donate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="goToActivity"
+        android:text="Donate Item"
+        android:visibility="invisible" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Registeration"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/NameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/emailID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="xyz@gmail.com"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="+91(Your Phone number)"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <CheckBox
+        android:id="@+id/donate_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:text="Donate Item?"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:onClick="itemClicked"/>
+
+    <CheckBox
+        android:id="@+id/charity_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:text="Register your charity?"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:onClick="itemClicked_charity"/>
+
+
+    <Button
+        android:id = "@+id/donate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Donate Item"
+        android:visibility="invisible" />
+
+
+
+
+
+
+</LinearLayout>
